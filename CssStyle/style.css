@@ -15,6 +15,8 @@ body{
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    line-height: 32px;
+    font-family: "europa", sans-serif;
 }
 html, body{
     height: 100%;
@@ -73,7 +75,7 @@ nav a:hover{
     line-height: 1.5;
     position: relative;
     text-decoration: none;
-
+    transition: color 0.7s ease;
     border-radius: 30px;
 }
 
@@ -130,7 +132,7 @@ nav a:hover{
     margin: 0 auto;
     padding-top: 48px;
     text-align: center;
-    margin-bottom: -0.5rem;
+    margin-bottom: -0.8rem;
 }
 
 .computer-container {
@@ -166,25 +168,20 @@ nav a:hover{
 .section-purple {
     background-color: #7510F7;
     color: #fff;
-    padding: 9rem 1.5rem;
-    padding-bottom: 16rem;
+    padding: 10.25rem 1.5rem 15.9rem;
 }
 .container {
     padding-top: 8px;
 }
 
 .section-skills .box {
-    padding-left: 24px;
-    padding-right: 24px;
     padding: 0;
-    padding: 0rem 1.5rem;
     text-align: center;
     display: block;
     margin-top: -152px;
 }
 
 .box {
-    padding: 0;
     border-radius: 12px;
     background-color: white;
     box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
@@ -230,6 +227,10 @@ nav a:hover{
     flex-grow: 1;
     flex-shrink: 1;
     padding-top: 73px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 .image {
@@ -252,4 +253,90 @@ nav a:hover{
     font-size: 1.5rem !important;
 }
 
+p {
+    font-size: 18px;
+    margin-bottom: 2em;
+    margin: 0;
+    padding: 0;
+}
 
+.list-title {
+    margin-top: 50px;
+    margin-bottom: 8px;
+    font-weight: 400 !important;
+    color: #7510F7 !important;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.section-project {
+    padding: 9rem 1.5rem;
+    text-align: center !important;
+    display: block;
+}
+
+.is-spaced {
+    margin-bottom: 1.5rem;
+    color: #141c3a;
+    font-weight: 800;
+    word-break: break-word;
+    font-size: 2rem !important;
+    display: block;
+    margin-inline-start: 0px;
+}
+
+.subtitle-size-5 {
+    margin-bottom: 1.5rem;
+    font-family: "europa", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 1.25rem !important;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    border-left: 1px solid #E6ECF8;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #141c3a;
+}
+
+.grid {
+    padding-top: 4rem;
+    padding: 2rem 0 4rem;
+}
+
+.column-multiline {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -0.75rem;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    margin-top: -0.75rem;
+}
+
+.column-12-mobile {
+    -webkit-box-flex: 0;
+    flex: none;
+    width: 33.3333%;
+    padding: 0.75rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    text-align: center !important;
+}
+
+figure {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
